@@ -1,0 +1,55 @@
+﻿
+<!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 主页：添加文本、打开网页、启动游戏，等等。
+     如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
+     如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
+    
+<local:MyCard Title="系统设置" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Center " Padding="13,0,13,0"
+                   Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+    </StackPanel>
+</local:MyCard>
+    
+<local:MyCard Title="介绍" Margin="0,0,0,15">
+    <StackPanel Margin="25,50,23,15">
+        <TextBlock Margin="0,0,0,4" Width="320" FontSize="20" HorizontalAlignment="Right"
+                   Text="主播蛋白i" />
+        <TextBlock Margin="0,0,0,5" Width="320" FontSize="17" HorizontalAlignment="Center"
+                   Text="斗鱼签约主播，目前已有6年的直播生涯" /> 
+        <TextBlock Margin="0,0,0,5" Width="320" FontSize="16" HorizontalAlignment="Center"
+                   Text="别称：酪蛋白，老蛋白，蛋白，主播蛋白" /> 
+        <Image Margin="0,0,0,5" Height="128" HorizontalAlignment="Center" Source="https://mc.dbhg.top/icon.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="链接" Margin="0,0,430,0">
+    <StackPanel Margin="25,50,23,15">
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="斗鱼直播间" EventType="打开网页" EventData="https://douyu.com/762505/" />
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="B站主页" EventType="打开网页" EventData="https://space.bilibili.com/390126641/" />
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="抖音主页" EventType="打开网页" EventData="https://www.douyin.com/user/MS4wLjABAAAAthBauB1siWQBJefyVq2U8RIc1RrIXR00Hr1aC0SU6eA" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="链接2" Margin="215,-180,215,0">
+    <StackPanel Margin="25,50,23,15">
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="微博" EventType="打开网页" EventData="https://weibo.com/DanBaiGG/" />
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="邮箱" EventType="打开文件" EventData="mailto:505351348@qq.com" />
+        <local:MyButton Margin="0,0,0,4" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="QQ" EventType="打开网页" EventData="https://mc.dbhg.top/qq" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="帮助" Margin="430,-180,0,0">
+    <StackPanel Margin="25,50,23,15">
+        <local:MyButton Margin="0,10,0,0" Width="140" Height="35" Padding="13,0,13,0"
+                   Text="后宫文档" EventType="打开网页" EventData="https://docs.dbhg.top/" />
+        <local:MyButton Margin="0,10,0,0" Width="140" Height="35" Padding="13,0,13,0"
+                   Text="后宫文档(备用)" EventType="打开网页" EventData="https://doc.dbhg.top/" />
+    </StackPanel>
+</local:MyCard>
+
