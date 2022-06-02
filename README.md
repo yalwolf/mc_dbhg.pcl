@@ -6,7 +6,7 @@ API：https://mc.dbhg.top/pcl2/pcl2.xaml
 
 ## 使用方法
 
-# 联网使用
+### 联网使用
 
 1.在PCL2启动器中，进入设置界面
 
@@ -16,7 +16,7 @@ API：https://mc.dbhg.top/pcl2/pcl2.xaml
 
 4.返回启动主页，就可以看到定制后的“主页”了。
 
-# 本地使用
+### 本地使用
 
 1.点击API链接，下载文件
 
