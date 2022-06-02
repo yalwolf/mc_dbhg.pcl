@@ -3,7 +3,7 @@
 PCL2启动器 & 主播蛋白i
 定制页面API
 
-API：https://mc.dbhg.top/pcl.xaml
+API：https://mc.dbhg.top/pcl2/pcl2.xaml
 
 ## 使用方法
 
