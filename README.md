@@ -1,7 +1,6 @@
-# mc_dbhg.pcl
+# PCL2启动器 & 主播蛋白i
 
-PCL2启动器 & 主播蛋白i
-定制页面API
+定制页面 API
 
 API：https://mc.dbhg.top/pcl2/pcl2.xaml
 
