@@ -1,5 +1,9 @@
 # PCL2启动器 & 主播蛋白i
 
+定制启动器包
+
+Download：[下载](https://github.com/yalwolf/docs_dbhg/releases/download/PCL2/PCL2xY_DanBai.v1.2.zip)
+
 定制页面 API
 
 API：https://mc.dbhg.top/pcl2/pcl2.xaml
